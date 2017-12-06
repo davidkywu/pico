@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:#2A2A2A ;
+	font-size: 14px;
+}
+
+/** Navigation **/
+.navigation {
+	background-color: #262626;
+	height: 80px;
+}
+
+.navigation .logo {
+	color: #fff;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 15px;
+	padding: 15px 15px 15px 35px;
+}
+
+.navigation ul {
+	float: right;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 35px 15px 15px;
+	margin-top: 20px;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation li.active a {
+	color: #ff6760;
+}
+
+.navigation a {
+	color:#d8d8d8;
+	margin-right: 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/** header**/
+.header {
+	color: #d8d8d8;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.header h1 > span {
+	font-weight: bold;
+}
+
+.header h2 {
+	font-size: 36px;
+	font-weight: 300;
+	margin: 25px 0;
+}
+
+.header h2 > span {
+	color: #EB615B;
+}
+
+.header a {
+	background-color: #FF6760;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	display: inline-block;
+	margin: 10px 0 75px 0;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/** features **/
+.features {
+	background-color: #f6f6f6;
+	color: #616161;
+	height:450px;
+}
+
